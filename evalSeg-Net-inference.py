@@ -2,7 +2,7 @@ import tensorflow as tf
 import numpy as np
 import os
 from scipy import misc
-import model_confidence as model
+import evalSeg-Net as model
 from argparse import ArgumentParser
 import sys
 import random
