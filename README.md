@@ -28,7 +28,7 @@ Please make sure to update the tfrecords path in train.py beforehands. Note: the
 
 3. Selection - Keep only the top 10-20% masks based on the score given by the confidence net.
 4. Create tfrecords with the same structure as for the First iteration.
-5. Re-train all/some of the models on the new data obtained from point 4. We have observed that Dilate-UNet usually performs the best, so this would be a good candidate.
+5. Re-train all/some of the models from scratch on the new data obtained at point 4. We have observed that Dilate-UNet usually performs the best, so this would be a good candidate.
 
 ## Pre-trained models
 You can also use our pre-trained ICCV model. In order to use it, download the model weights: [weights](https://drive.google.com/open?id=1e2-LEvSCIirFKt-iKZvVHu7QbGDbbE36) then
