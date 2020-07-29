@@ -26,7 +26,7 @@ Please make sure to update the tfrecords path in train.py beforehands. Note: the
 
     2.2. Run the pre-trained confidence net TODO
 
-3. Selection - Keep only the top 10-20% masks based on the score given by the confidence net.
+3. Selection - Keep only the top 10-20% masks based on the score given by the confidence net (usually keeping all the frames over 80 confidence score is a good practice - as it is set in the code).
 4. Create tfrecords with the same structure as for the First iteration.
 5. Re-train all/some of the models from scratch on the new data obtained at point 4. We have observed that Dilate-UNet usually performs the best, so this would be a good candidate.
 
